@@ -1,0 +1,180 @@
+body{
+    background-color: #9ca9dc;
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}  
+#content{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.student-pic{
+    position: relative;
+    right: 370px;
+    bottom:489px;
+    width: 8%;
+}
+h1{
+    position: relative;
+    bottom: 500px;
+    right: 100px;
+    font-size: 18px;
+
+}
+h1::after{
+    content: "Today";
+    position: absolute;
+    display: inline-block;
+    background-color: #0d70d2;
+    border: 1px solid #0d70d2;
+    width: 40px;
+    border-radius: 8px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    left: 740px;
+
+}
+p{
+    position: relative;
+    bottom: 508px;
+    right: 75px;
+    font-size: 11px;
+    color: #6c6f65;
+}
+.pen{
+    width: 1%;
+    position: relative;
+    left: 35px;
+    bottom: 550px;
+}
+.container{
+    width: 16%;
+    height: 240px;
+    position: relative;
+    left: 516px;
+    bottom: 520px;
+    overflow: auto;
+} 
+.header-food{
+    width: 98%;
+    height: 30px;
+    background-color: #1072d7;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    position: sticky;
+    top:0px
+}
+.list-food{
+    text-align: left;
+    padding-left: 13px;
+    background-color: white;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+br{
+    margin: 7px;
+}
+a{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+a:focus{
+    text-decoration:line-through;
+    color: gray;
+}
+.check::after:focus{
+    opacity: 1;
+}
+.check::after{
+    content: "";
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    right: 10px;
+    background-color: #1072d7;
+    color: white;
+    opacity: 0;
+}
+.header-daily{
+    width: 98%;
+    height: 30px;
+    background-color: #006c6c;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+}
+.list-daily{
+    text-align: left;
+    padding-left: 13px;
+    background-color: white;
+    margin-bottom: 5px;
+    font-size:15px;
+}
+.header-drink{
+    width: 98%;
+    height: 30px;
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+}
+.list-drink{
+    text-align: left;
+    padding-left: 13px;
+    background-color: white;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#write{
+    position: relative;
+    bottom: 515px;
+    right: 60px;
+    width: 13%;
+    height: 28px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e6e6e5;
+    padding: 5px;
+    
+}
+.btn-add{
+    position: relative;
+    bottom: 510px;
+    left: 525px;
+    width: 13.7%;
+    height: 35px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #1072d7;
+    padding: 5px;
+    display: block;
+    color: white;
+
+}
+.btn-add:hover{
+    background-color: #3f8edc;
+}
